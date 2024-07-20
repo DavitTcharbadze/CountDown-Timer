@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+
+body,
+html {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+body {
+  background: url("../assets/images/bg-stars.svg"), url("../assets/images/pattern-hills.svg"), rgb(29, 1, 29);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center, bottom;
+}
+
+.main-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 216px;
+  align-items: center;
+  h1{
+    font-size: 45px;
+    font-weight: 800px;
+    margin-top: -100px;    
+  }
+.main-timer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 216px;
+  padding-top: 150px;
+}
+
+.card-timer  {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+    .time {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    color: salmon;
+    font-size: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(236, 21%, 26%);
+    box-shadow: 0px 10px black;
+    border-radius: 30px;
+    }
+
+    .time-text {
+    font-size: 35px;
+    margin-top: 250px;
+    position: absolute;
+    left: 26%;
+    color: hsl(235, 16%, 14%);
+    font-family: fantasy;
+    }
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+    img {
+    cursor: pointer;
+    margin: 5px;
+    &:hover {
+        margin: 5px;
+        filter: brightness(0.2);
+    }
+    }
+}
+}
